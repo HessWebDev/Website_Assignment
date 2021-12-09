@@ -1,0 +1,43 @@
+.head{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content:space-between;
+    justify-content: space-around;
+
+
+}
+/*.top-half{
+    flex: 1 1 100%;
+    display: flex;
+}
+
+.bottom-half{
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: center;
+
+}*/
+
+.logo{
+    flex: 1 1 50%;
+
+}
+
+.container{
+    flex: 1 1 auto;
+    display: flex;
+}
+
+.links{
+    flex: 1 1 auto;
+}
+.left{
+    flex: 1 1 30%;
+
+}
+
+.right{
+    flex: 1 1 50%;
+
+}
