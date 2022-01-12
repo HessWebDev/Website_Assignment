@@ -1,7 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #1f2937;
+}
 .contianer{
 
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    
 }
 /*.top-half{
     flex: 1 1 100%;
@@ -14,46 +24,165 @@
     justify-content: center;
 
 }*/
+.Main_Title{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
 .navbar{
 
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 0px 50px;
 }
 .firstrow{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    color: white;
 }
 
 .secondrow{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    color: white;
+    margin: 40px 50px;
 }
 .logo{
     flex: 1 1 50%;
-    border: solid blue;
+    
+    color: white;
 
 }
 
 .navigation{
     flex: 1 1 50%;
     display: flex;
-    border:solid pink;
+    
+    color: gray;
 }
 
-.links{
+.navigation .links{
     flex: 1 1 auto;
-    
-    border:solid dimgray;
+    text-decoration: none;
+    color: gray;
+   
 
+}
+.navigation .links:hover{
+    color: white;
 }
 .left{
     flex: 1 1 30%;
-    border: solid green;
+    
+    margin: 20px 20px 60px 0px;
 }
-
+img{
+    
+}
 .right{
     flex: 1 1 50%;
-    border: solid gold;
+    
+    background-color: lightgray;
+    margin: 20px 20px 60px 0px;
+}
+.button{
+    background-color: #3882F6;
+    border-radius: 5%;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+.button:hover{
+    background-color: #3802f6
+}
+
+body{
+    background-color: white;
+    margin: 0px;
+}
+.info_header{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 50px 40px 50px;
+}
+
+.container_items{
+    
+    border: 2px solid blue;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+}
+.text{
+    text-align: center;
+    width: 100px;
+    font-size: medium;
+}
+
+.info{
+    height: 300px;
+    width: 100%;
+    background-color: #E5E7Eb;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.info_text{
+    position:relative;
+    margin: 0px 100px 0px 100px;
+}
+
+.signature{
+
+    position: absolute;
+    right: 60px;
+}
+.sign_up{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.container4{
+background-color: #3883f6;
+width: 70%;
+height: 60px;
+border-radius: 2%;
+display: flex;
+justify-content: space-around;
+padding: 10px 0px 10px 0px;
+}
+
+.button2{
+    border: 1px solid white;
+    background-color: #3882F6;
+    border-radius: 5%;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
+.button2:hover{
+    color: white;
+    border: 1px solid black;
+}
+footer{
+    width: 100%;
+    height: 10px;
+    background-color: #1f2937;
+    color:white;
+    text-align: center;
+    padding: 40px
 }
