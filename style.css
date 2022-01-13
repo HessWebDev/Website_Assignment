@@ -139,19 +139,19 @@ body{
 
 }
 .item1{
-    background-image: url("/Images/Dark-Chocolate-Mocha-Square.jpeg");
+    background-image: url("Images/Dark-Chocolate-Mocha-Square.jpeg");
     background-size: contain;
 }
 .item2{
-    background-image: url("/Images/Frappe.jpeg");
+    background-image: url("Images/Frappe.jpeg");
     background-size: contain;
 }
 .item3{
-    background-image: url("/Images/Latte.jpeg");
+    background-image: url("Images/Latte.jpeg");
     background-size: contain;
 }
 .item4{
-    background-image: url("/Images/SweetCreamColdbrew.jpeg");
+    background-image: url("Images/SweetCreamColdbrew.jpeg");
     background-size: cover;
 }
 .text{
